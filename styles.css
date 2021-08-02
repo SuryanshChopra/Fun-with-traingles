@@ -142,7 +142,6 @@ a {
     cursor: pointer;
     font-size: 1rem;
 
-
 }
 
 .goback:hover {
@@ -153,6 +152,78 @@ a {
 .list-item-angle {
     list-style: none;
     font-size: 1.5rem;
-    padding: 5rem 1rem 0rem;
+    padding: 7.4rem 1rem 0rem;
 }
 
+.label {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.triangle div {
+    height: 2px;
+    background-color: black;
+}
+
+.triangle {
+    position: relative;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 20px;
+}
+
+.triangle label {
+    position: absolute;
+    font-size: 0.8rem;
+}
+
+.sideA {
+    left: -15px;
+    top: 45px;
+}
+
+.sideB{
+    left: 45px;
+    top: 105px;
+}
+
+.sideC{
+    left: 50px;
+    top: 35px;
+}
+
+.triangle .line1{
+    width: 100px;
+    bottom: -102px;
+    
+}
+
+.triangle .line2{
+    width: 100px;
+    transform: rotate(90deg);
+    top: 50px;
+    left: -50px;
+}
+.triangle .line3{
+    width: 141.42px;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -20px;
+}
+
+.line{
+    position: relative;
+    bottom: -100px;
+}
+
+.backhyp {
+    padding: 4rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item-hyp {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1.55rem 1rem 0rem;
+}
