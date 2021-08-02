@@ -152,7 +152,7 @@ a {
 .list-item-angle {
     list-style: none;
     font-size: 1.5rem;
-    padding: 7.4rem 1rem 0rem;
+    padding: 5.55rem 1rem 0rem;
 }
 
 .label {
@@ -204,11 +204,33 @@ a {
     top: 50px;
     left: -50px;
 }
+
 .triangle .line3{
     width: 141.42px;
     transform: rotate(45deg);
     top: 50px;
     left: -20px;
+}
+
+.triangle .line4{
+    width: 71px;
+    transform: rotate(135deg);
+    left:-12px;
+    top: 72px
+}
+
+.triangle .line5{
+    width: 8px;
+    transform: rotate(135deg);
+    left:50px;
+    top: 55px;
+}
+
+.triangle .line6{
+    width: 12px;
+    transform: rotate(45deg);
+    left:41px;
+    top: 50px;
 }
 
 .line{
@@ -227,3 +249,42 @@ a {
     font-size: 1.5rem;
     padding: 1.55rem 1rem 0rem;
 }
+
+.formulaSelectionForm {
+    text-align: left;
+}
+
+.radio {
+    padding: 0.5rem 1rem;
+}
+
+.radio label{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+}
+
+.list-item-area {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 12.05rem 1rem 0rem;
+}
+
+.heightH{
+    left: 25px;
+    top:75px;
+}
+
+.angleA{
+    left: 75px;
+    top:87px;
+}
+
+/* .areaCalBlock{
+    display: none;
+} */
+
+.error{
+    display: none;
+}
+
