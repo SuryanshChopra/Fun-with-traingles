@@ -290,6 +290,9 @@ a {
 
 .formquiz {
     text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
 }
 
 .formquiz label.question {
