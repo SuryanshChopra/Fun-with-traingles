@@ -288,3 +288,22 @@ a {
     display: none;
 }
 
+.formquiz {
+    text-align: left;
+}
+
+.formquiz label.question {
+    display: block;
+}
+
+.radio input {
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+}
+
+.qz {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #D1D5DB;
+}
