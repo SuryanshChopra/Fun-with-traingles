@@ -106,6 +106,7 @@ a {
     height: 20px;
     width: 50px;
     overflow: scroll;
+    font-size: medium;
 }
 
 .inputBox::-webkit-scrollbar {
