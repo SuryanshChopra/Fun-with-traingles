@@ -52,6 +52,26 @@ a {
 #footer {
     width: 100%;
     min-height: 6vh;
+    position: fixed;
+    bottom: 0.5rem;
+   
+    
+}
+
+#footerarea {
+    width: 100%;
+    min-height: 6vh;
+    padding: 0.5rem 0.5rem ;
+    
+    
+}
+
+.list-item-area {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10rem 1rem 0rem;
+   
+    
 }
 
 .footer-list {
@@ -69,8 +89,9 @@ a {
 .list-item-index {
     list-style: none;
     font-size: 1.5rem;
-    padding: 10rem 1rem 0rem;
-    /* min-height: 6vh; */
+    /* padding: 10rem 1rem 0rem; */
+    padding: 0.5rem 1rem;
+    
 }
 
 .section {
@@ -147,12 +168,7 @@ a {
 .goback:hover {
     background-color: #4B5563;
     color: #F3F4F6;
-}
 
-.list-item-angle {
-    list-style: none;
-    font-size: 1.5rem;
-    padding: 5.55rem 1rem 0rem;
 }
 
 .label {
@@ -244,11 +260,6 @@ a {
     align-items: center;
 }
 
-.list-item-hyp {
-    list-style: none;
-    font-size: 1.5rem;
-    padding: 1.55rem 1rem 0rem;
-}
 
 .formulaSelectionForm {
     text-align: left;
@@ -265,11 +276,7 @@ a {
     display: inline-block;
 }
 
-.list-item-area {
-    list-style: none;
-    font-size: 1.5rem;
-    padding: 12.05rem 1rem 0rem;
-}
+
 
 .heightH{
     left: 25px;
@@ -317,3 +324,4 @@ a {
     justify-content: center;
     align-items: center;
 }
+
