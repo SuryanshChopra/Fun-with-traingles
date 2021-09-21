@@ -1,5 +1,5 @@
 # Fun-with-traingles
-Task 9 of training: Making a Triangle app
+Mark 12: Do you know your triangles?
 
 Objectives :
 
